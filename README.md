@@ -44,7 +44,7 @@ In this assignment, you will create the initial version of your Ecommerce Store.
 ### Before you start
 
 <ol>
-  <li>Fork this repo into your GitHub account
+  <li>Fork <a href="https://github.com/jparciga/wa-react-2021-q4-capstone-project">this repo</a> into your GitHub account
   <li>Please make sure that your new repo is publicly accessible 
   <li>Create a new branch with the name <b>“feat/deliverable1”</b> derived from <b>main</b> on your forked repository
   <li>Start working on the requirements specified below
