@@ -48,7 +48,6 @@ In this assignment, you will create the initial version of your Ecommerce Store.
   <li>Please make sure that your new repo is publicly accessible 
   <li>Create a new branch with the name <b>“feat/deliverable1”</b> derived from <b>main</b> on your forked repository
   <li>Start working on the requirements specified below
-  <li>Once you complete all the bullets on the <a href="#evaluation-criteria">Evaluation Criteria</a> section, push your changes to your branch and open a PR that can be merged into your main branch of your own GitHub repository.</li>
 </ol>
 
 ### Requirements
@@ -90,12 +89,8 @@ In this assignment, you will create the initial version of your Ecommerce Store.
 
 - Unit Test to validate that the Ecommerce Store logo/name appears correctly in the Header. (10 points)
 
-### Definition of Completed
+### Submitting your Deliverable
 
-We will consider this deliverable as completed when all the following bullets are checked:
-
-- You have submitted your PR to your GitHub repository
-- Your app is deployed and running in a hosting service such as Netlify, Firebase, Heroku, GitHub Pages, etc.
-- You have sent your PR and deployment links through this assignment in Google Classroom
-- You’ve covered all the requirements specified above
-- You have submitted your deliverable before **October 18th at 8:00 AM (CST)**
+- Once you’ve covered all the <a href="#requirements">requirements specified above</a> and completed all the bullets on the <a href="#evaluation-criteria">Evaluation Criteria</a> section, push your changes to your branch and open a **PR** that can be merged into your **main** branch of your own GitHub repository.
+- Deploy your app into a hosting service such as Netlify, Firebase, Heroku, GitHub Pages, etc.
+- Fill <a href="https://docs.google.com/forms/d/e/1FAIpQLSc3So94j4yoKcyPU1rDQvXweCdn59eoaGeD6tByPRgX_Osmnw/viewform">this Google Form</a> to submit your project before **October 18th at 8:00 AM (CST)**
