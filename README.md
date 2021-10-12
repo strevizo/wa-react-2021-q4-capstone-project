@@ -1,71 +1,101 @@
-# Getting Started with Create React App
+# Wizeline Academy - React Bootcamp 2021/Q4
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Introduction
 
-## Available Scripts
+Thank you for participating in the 2021 - Q4 React Bootcamp! Here you will find all the instructions to complete your **Capstone Project**.
 
-In the project directory, you can run:
+The purpose of this project is for you to demonstrate your React skills. This is your chance to show off everything you have learned during this bootcamp!
 
-### `yarn start`
+You will build and deliver an entire React application on your own from scratch. The project is divided into weekly deliverables, in which you will apply the concepts learned in the assignments and live sessions. Each deliverable has its own information on what and how we expect you to deliver throughout the bootcamp.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+We hope you find this project challenging and engaging!
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## The Project
 
-### `yarn test`
+Create an Ecommerce Store where you can buy furniture and home decor items. It should have the following sections:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Home Page
+- Product List Page
+- Product Detail Page
+- Search Results Page
+- Shopping Cart Page
+- Checkout Page
 
-### `yarn build`
+We don’t want to limit you or bias your implementation by providing some demo application with a specific design, but instead, ask you to choose your own and build it from scratch. Here’s a link where you can find great ideas and inspiration for your UI design: https://dribbble.com/search/ecommerce
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Deliverables
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+We provide the delivery dates to plan accordingly; please take this project seriously and try to make progress constantly. If you are struggling with something or get stuck at some point, please schedule a mentoring session to get help on time. Feel free to use the slack channel available.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [**Deliverable 1 - (Due Date: Monday, October 18th)**](#deliverable-1)
+- **Deliverable 2 - (Due Date: Monday, October 25th)**
+- **Deliverable 3 - (Due Date: Monday, November 1st)**
+- **Deliverable 4 - (Due Date: Monday, November 8th)**
+- **Final Deliverable - (Due Date: Monday, November 15th)**
 
-### `yarn eject`
+## Deliverable 1
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**Related topics**: React Fundamentals & CSS Styles in React
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+In this assignment, you will create the initial version of your Ecommerce Store. It should contain the following:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Home Page (prototype)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Before you start
 
-## Learn More
+<ol>
+  <li>Fork this repo into your GitHub account
+  <li>Please make sure that your new repo is publicly accessible 
+  <li>Create a new branch with the name <b>“feat/deliverable1”</b> derived from <b>main</b> on your forked repository
+  <li>Start working on the requirements specified below
+  <li>Once you complete all the bullets on the <a href="#evaluation-criteria">Evaluation Criteria</a> section, push your changes to your branch and open a PR that can be merged into your main branch of your own GitHub repository.</li>
+</ol>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Requirements
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<ol>
+  <li>
+    Create the <b>UI layout</b> for your app, it should include the following elements:
+    <ul>
+      <li>1.1. A <b>Header</b> containing your Ecommerce Store logo/name, a search input, and a shopping cart icon. For now, all the elements in the header should be disabled, you only need to create the corresponding UI elements without the functionality.</li>
+      <li>1.2. The <b>Content</b> view corresponding to the section that will be rendered (in this case, the Home Page)</li>
+      <li>1.3. A <b>Footer</b> containing the message “Ecommerce created during Wizeline’s Academy React Bootcamp”</li>
+    </ul>
+  </li>
+  <li>
+    Create the <b>Home Page</b> including the following blocks:
+    <ul>
+      <li>2.1. A <b>Slider</b> to display the featured banners from this mock file</li>
+      <li>2.2. A <b>Carousel</b> or <b>Grid</b> of the product categories from this mock file</li>
+      <li>2.3. A <b>Grid</b> of <b>Featured Products</b> from this mock file. For each element on this grid, you should show at least the main image of the product, its name, category, and price.</li>
+    </ul>
+  </li>
+</ol>
 
-### Code Splitting
+### Notes
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Try to keep the use of third-party libraries to the minimum, especially the ones related to the topics covered in our bootcamp. Please don’t use any UI library such as Bootstrap or Material UI, we want you to create all of your styles from scratch using the styling techniques learned.
+- Please make sure that your UI is responsive and all the elements adapt to different screen sizes (Smartphone, Tablet, Desktop).
+- Please make sure that no warnings or errors are logged in the browser console
 
-### Analyzing the Bundle Size
+### Evaluation Criteria
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- The Header is rendered correctly (25 points)
+- The Featured Banners Slider is rendered correctly using the data from the mock file (20 points)
+- The Categories Carousel/Grid is rendered correctly using the data from the mock file (20 points)
+- The Featured Products Grid is rendered correctly using the data from the mock file (30 points)
+- The Footer is rendered correctly (5 points)
 
-### Making a Progressive Web App
+### Bonus
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Unit Test to validate that the Ecommerce Store logo/name appears correctly in the Header. (10 points)
 
-### Advanced Configuration
+### Definition of Completed
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+We will consider this deliverable as completed when all the following bullets are checked:
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# wa-react-2021-q4-capstone-project
+- You have submitted your PR to your GitHub repository
+- Your app is deployed and running in a hosting service such as Netlify, Firebase, Heroku, GitHub Pages, etc.
+- You have sent your PR and deployment links through this assignment in Google Classroom
+- You’ve covered all the requirements specified above
+- You have submitted your deliverable before **October 18th at 8:00 AM (CST)**
