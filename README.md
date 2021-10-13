@@ -64,9 +64,9 @@ In this assignment, you will create the initial version of your Ecommerce Store.
   <li>
     Create the <b>Home Page</b> including the following blocks:
     <ul>
-      <li>2.1. A <b>Slider</b> to display the featured banners from this mock file</li>
-      <li>2.2. A <b>Carousel</b> or <b>Grid</b> of the product categories from this mock file</li>
-      <li>2.3. A <b>Grid</b> of <b>Featured Products</b> from this mock file. For each element on this grid, you should show at least the main image of the product, its name, category, and price.</li>
+      <li>2.1. A <b>Slider</b> to display the featured banners from <a href="https://github.com/jparciga/wa-react-2021-q4-capstone-project/blob/main/mocks/featured-banner.json">this mock file</a></li>
+      <li>2.2. A <b>Carousel</b> or <b>Grid</b> of the product categories from <a href="https://github.com/jparciga/wa-react-2021-q4-capstone-project/blob/main/mocks/product-categories.json">this mock file</a></li>
+      <li>2.3. A <b>Grid</b> of <b>Featured Products</b> from <a href="https://github.com/jparciga/wa-react-2021-q4-capstone-project/blob/main/mocks/featured-products.json">this mock file</a>. For each element on this grid, you should show at least the main image of the product, its name, category, and price.</li>
     </ul>
   </li>
 </ol>
@@ -80,9 +80,9 @@ In this assignment, you will create the initial version of your Ecommerce Store.
 ### Evaluation Criteria
 
 - The Header is rendered correctly (25 points)
-- The Featured Banners Slider is rendered correctly using the data from the mock file (20 points)
-- The Categories Carousel/Grid is rendered correctly using the data from the mock file (20 points)
-- The Featured Products Grid is rendered correctly using the data from the mock file (30 points)
+- The Featured Banners Slider is rendered correctly using the data from <a href="https://github.com/jparciga/wa-react-2021-q4-capstone-project/blob/main/mocks/featured-banner.json">the mock file</a> (20 points)
+- The Categories Carousel/Grid is rendered correctly using the data from <a href="https://github.com/jparciga/wa-react-2021-q4-capstone-project/blob/main/mocks/product-categories.json">the mock file</a> (20 points)
+- The Featured Products Grid is rendered correctly using the data from <a href="https://github.com/jparciga/wa-react-2021-q4-capstone-project/blob/main/mocks/featured-products.json">the mock file</a> (30 points)
 - The Footer is rendered correctly (5 points)
 
 ### Bonus
