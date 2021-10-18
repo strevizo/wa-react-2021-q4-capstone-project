@@ -6,9 +6,9 @@ import './Shoppingcart.css'
 function Shoppingcart(){
     return(
         <section>
-            <button type="button" class="shopping-cart-button float-right">
-                <i class="fa-solid fa-cart-shopping"></i>
-                <span class="text">Shopping Cart</span>
+            <button type="button" className="shopping-cart-button float-right">
+                <i className="fa-solid fa-cart-shopping"></i>
+                <span className="text">Shopping Cart</span>
             </button>
         </section>
     )
