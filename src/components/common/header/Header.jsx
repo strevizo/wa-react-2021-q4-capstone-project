@@ -7,21 +7,17 @@ import './Header.css';
 function Header(){
 
     return(
-        <section className="header">
-            <section className="header-top-logo">
-                <a href="/" className="header-logo">Muebletopia</a>
+        <nav class="header">
+            <section class="header-top-logo">
+                <a href="/" class="header-logo">Muebletopia</a>
             </section>
-            <section className="header-top-searchbar">
-                <section className="header-searchbar">
+            <section class="header-top-searchbar">
                     <Searchbar />
-                </section>
             </section>
-            <section className="header-top-shoppingcarg">
-                <section className="header-shoppingcarg">
+            <section class="header-top-shoppingcart">
                     <Shoppingcart />
-                </section>
             </section>
-        </section>
+        </nav>
     )
 }
 

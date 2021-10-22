@@ -1,49 +1,39 @@
 import React from "react";
+import "./Productgrid.css"
 
 /* I still need to un-hardcode these cards*/
 function Productgrid() {
-    const carddata = require('../../../mocks/en-us/featured-products.json');
-    console.log(carddata.results[1].data.mainimage.url)
+    const productdata = require('../../../mocks/en-us/featured-products.json');
+
+    //Parse the results to an array
+    const carddata = Array.from(productdata.results);
+
     return (
-      <div className="wrapper">
-        <Card
-          img={carddata.results[1].data.mainimage.url}
-          title={carddata.results[1].data.name}
-          description={carddata.results[1].short_description}
-          price={carddata.results[1].price}
-        />
-  
-        <Card
-          img={carddata.results[2].data.mainimage.url}
-          title={carddata.results[2].data.name}
-          description={carddata.results[2].short_description}
-          price={carddata.results[2].price}
-        />
-        <Card
-          img={carddata.results[3].data.mainimage.url}
-          title={carddata.results[3].data.name}
-          description={carddata.results[3].short_description}
-          price={carddata.results[3].price}
-        />
-        <Card
-          img={carddata.results[4].data.mainimage.url}
-          title={carddata.results[4].data.name}
-          description={carddata.results[4].short_description}
-          price={carddata.results[4].price}
-        />
-      </div>
+      <section class="products">
+          {
+            carddata.map(product => (
+              <Card
+                key={product.id}
+                img={product.data.mainimage.url}
+                title={product.data.name}
+                description={product.short_description}
+                price={product.price}
+              />
+            ))
+          }
+      </section>
     );
   }
   
   function Card(props) {
     return (
-      <div className="card">
-        <img alt="Product" src={props.img} className="card__img" />
-        <div className="card__body">
-          <h2 className="card__title">{props.title}</h2>
-          <p className="card__description">{props.description}</p>
-          <h3 className="card__price">{props.price}</h3>
-          <button className="card__btn">Add to Cart</button>
+      <div class="product-card" key={props.id}>
+        <img alt="Product" src={props.img} class="card-img" />
+        <div className="card-body">
+          <h2 className="card-title">{props.title}</h2>
+          <p className="card-description">{props.description}</p>
+          <h3 className="card-price">{props.price}</h3>
+          <button className="card-btn">Add to Cart</button>
         </div>
       </div>
     );
