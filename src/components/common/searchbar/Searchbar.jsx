@@ -4,7 +4,7 @@ function SearchBar () {
     return(
     <form action="/" method="get">
         <label htmlFor="header-search">
-            <span className="visually-hidden">Furniture Search</span>
+            <span className="visually-hidden">Furniture Search  </span>
         </label>
         <input
             type="text"
