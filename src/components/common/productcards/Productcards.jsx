@@ -3,7 +3,7 @@ import React from "react";
 function Productcards(props){
 
     return(
-        <section class="products">
+        <section className="products">
             {
                 props.map(product => (
                     <Card
@@ -21,7 +21,7 @@ function Productcards(props){
 
     function Card(props) {
         return (
-            <div class="product-card" key={props.id}>
+            <div className="product-card" key={props.id}>
                 <img alt="Product" src={props.img} class="card-img" />
                 <div className="card-body">
                 <h2 className="card-title">{props.title}</h2>

@@ -3,8 +3,8 @@ import Searchbar from './searchbar';
 import Footer from './footer';
 import Sliderswiper from './slider';
 import Featuredproducts from './featuredproducts';
-import ViewAllProducts from './viewallproducts';
 import Productcards from './productcards';
+import Filterbar from './filterbar';
 
 
 export {
@@ -13,6 +13,6 @@ export {
   Footer,
   Sliderswiper, 
   Featuredproducts,
-  ViewAllProducts,
-  Productcards
+  Productcards,
+  Filterbar
 }
