@@ -2,7 +2,9 @@ import Header from './header';
 import Searchbar from './searchbar';
 import Footer from './footer';
 import Sliderswiper from './slider';
-import Productgrid from './productgrid';
+import Featuredproducts from './featuredproducts';
+import Productcards from './productcards';
+import Filterbar from './filterbar';
 
 
 export {
@@ -10,5 +12,7 @@ export {
   Searchbar,
   Footer,
   Sliderswiper, 
-  Productgrid
+  Featuredproducts,
+  Productcards,
+  Filterbar
 }

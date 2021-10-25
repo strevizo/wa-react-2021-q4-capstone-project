@@ -7,9 +7,9 @@ import './Header.css';
 function Header(){
 
     return(
-        <nav class="header">
-            <section class="header-top-logo">
-                <a href="/" class="header-logo">Muebletopia</a>
+        <nav className="header">
+            <section className="header-top-logo">
+                <a href="/" className="header-logo">Muebletopia</a>
             </section>
             <section class="header-top-searchbar">
                     <Searchbar />
